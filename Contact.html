@@ -262,6 +262,34 @@
           </div>
         </div>
       </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("p5WQ4wQRAaf5fVVEP");
+        })();
+     </script>
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+        .addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        btn.value = 'Ուղարկել է․․․';
+
+        const serviceID = 'service_q0399mr';
+        const templateID = 'template_69dmo8c';
+
+        emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+            btn.value = 'Ուղարկել';
+            }, (err) => {
+            btn.value = 'Ուղարկել';
+            alert(JSON.stringify(err));
+            });
+        });
+    </script>
     <script src="Contac.js"></script>
+    
 </body>
 </html>
