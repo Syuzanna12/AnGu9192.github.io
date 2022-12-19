@@ -1,5 +1,6 @@
 @media screen and (max-width:440px) {
 
+  
     .line,
     .phone,
     .order-call,
@@ -32,9 +33,6 @@
         transform: translatey(-50%);
     }
 
-    /* .navbar.active{
-            right: -34px;
-        } */
 
     .icons {
         display: flex;
@@ -76,16 +74,9 @@
         display: none;
     }
 
-
     .menu_holder {
         width: 375px;
-        /* width: 100%; */
         height: 250px;
-        /* background-image: linear-gradient(0deg, rgb(74, 64, 83) 0%,
-                    rgba(0, 0, 0, 0) 84%,
-                    rgba(169, 167, 170, 1) 100%),
-                url("./img/bachground3.png");
-            background-size: cover; */
         background-image: url("./img/bachground3.png");
         background-size: cover;
     }
