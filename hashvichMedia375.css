@@ -88,6 +88,11 @@
     .border_div {
         width: 51px;
     }
+      .main-arcanc {
+          display:flex;
+          flex-direction:column;
+     
+    }
     
     .footer{
         margin-top: 24px;
