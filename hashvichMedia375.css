@@ -10,7 +10,7 @@
     }
 
     .header {
-        width: 375px;
+        width: 412px;
         height: 76px;
         left: 0;
         transform: translate(0);
@@ -88,11 +88,12 @@
     .border_div {
         width: 51px;
     }
-      .main-arcanc {
-          display:flex;
-          flex-direction:column;
-     
-    }
+.roof-footer-main {
+    width: 412px;
+    display: flex;
+    flex-direction:column;
+    margin-top: 64px;
+}
     
     .footer{
         margin-top: 24px;
